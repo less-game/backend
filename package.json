@@ -1,0 +1,33 @@
+{
+  "name": "less-backend",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.13.3",
+    "socket.io": "^1.3.6"
+  },
+  "devDependencies": {
+    "chai": "^3.2.0",
+    "mocha": "^2.2.5",
+    "nodemon": "^1.4.1",
+    "sinon": "^1.16.1",
+    "sinon-chai": "^2.8.0",
+    "socket.io-client": "^1.3.6"
+  },
+  "scripts": {
+    "start:dev": "DEBUG=* ./node_modules/.bin/nodemon index.js",
+    "test": "mocha -r chai -r sinon",
+    "test:dev": "mocha -r chai -r sinon --watch -R min"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/less-game/backend.git"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/less-game/backend/issues"
+  },
+  "homepage": "https://github.com/less-game/backend#readme"
+}
