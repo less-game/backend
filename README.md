@@ -1,7 +1,5 @@
 
-# less-game (less-game)
-
-> Like Chess but Less!
+# less-game
 
 ## Running your project
 
